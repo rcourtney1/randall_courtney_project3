@@ -34,12 +34,12 @@
   <img class="tropic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/4th_BCT_%28ABN%29_25th_ID_SSI.png/220px-4th_BCT_%28ABN%29_25th_ID_SSI.png" alt="4th BCT (ABN)/25th ID"/>
   </div>
   </section>
-  <img src="mygallery/DeathfromAbove.jpg" name="Rotating" id="Rotating1" width=75 height=50>
-  <img scr="mygallery/airborneagenda.jpg" name="Rotating" id="Rotating2" width=75 height=50>
-  <img scr="mygallery/bettermen.jpg" name="Rotating" id="Rotating1" width=75 height=50>
-  <img scr="mygallery/Jump_School.jpg" name="Rotating" id="Rotating2" width=75 height=50>
-  <img scr="mygallery/Jumpwings.jpg" name="Rotating" id="Rotating1" width=75 height=50>
-  <img scr="mygallery/MassTacticalJump.jpg" name="Rotating" id="Rotating2" width=75 height=50>
+  <img src="mygallery/DeathfromAbove.jpg" name="Rotating" id="Rotating1" width=100 height=50>
+  <img scr="mygallery/airborneagenda.jpg" name="Rotating" id="Rotating2" width=100 height=50>
+  <img scr="mygallery/bettermen.jpg" name="Rotating" id="Rotating1" width=100 height=50>
+  <img scr="mygallery/Jump_School.jpg" name="Rotating" id="Rotating2" width=100 height=50>
+  <img scr="mygallery/Jumpwings.jpg" name="Rotating" id="Rotating1" width=100 height=50>
+  <img scr="mygallery/MassTacticalJump.jpg" name="Rotating" id="Rotating2" width=100 height=50>
   <script type="text/javascript">
     var ImageArr1 = new array ("DeathfromAbove.jpg", "bettermen.jpg", "Jumpwings.jpg");
     var Imageholder1 = document.getElementById ('Rotating1');
@@ -54,7 +54,7 @@
       if (Start>=a.length)
         Start=0;
       b.scr = a[Start];
-      window.setTimeout("RotateImages("+whichHolder+","+(Start+1)+")",150);
+      window.setTimeout("RotateImages("+whichHolder+","+(Start+1)+")",15);
     }
     RotateImages(1,0);
     RotateImages(2,0);
