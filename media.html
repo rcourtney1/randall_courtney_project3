@@ -20,67 +20,18 @@
             </ul>
         </nav>
     </header>
-  <h1>Places that I have been</h1>
+  <h1>Fort Bragg, NC: The Center of the Universe</h1>
+    <p> Fort Bragg, NC is located near Fayetteville and is the Home of the Airborne and Special Operations. It is affectionately known as the Center of the Universe to past and present Paratroopers.</p>
   <div id="map"></div>
   <script>
     function initMap() {
-      var  Bragg = {lat: 35.1415, lng: -79.0080} 
-      var  Gordon = {lat: 33.4256, lng: -82.1441} 
-      var  Richardson = {lat: 61.2544, lng: -149.6883}
-      var  Houma = {lat: 29.5958, lng: -90.7195}
-      var  Khost= {lat: 33.3338, lng: 69.9372}
-      var  Iskandariyah = {lat: 32.8896, lng: 44.3473}
-      var  Red Cloud= {lat: 37.74851, lng: 127.02815}
-      var  Camp Casey= {lat: 37.9198, lng: 127.0846}
-      var  Abqaiq = {lat: 25.9168, lng: 49.6707}
-      var  Genoa = {lat: 42.0972, lng: -88.6929}
+      var ulura = {lat: 35.1415, lng: -79.0080};
       var map = new google.maps.Map(document.getElementById ('map'), {
       zoom: 4, 
-
-        center: Bragg,
-      mapTypeId: 'terrain'
-    });
-      var marker = new google.maps.Marker({
-        postion: Bragg,
+        position: uluru,
         map: map
-      });
-      var marker = new google.maps.Marker({
-        position: Gordon,
-        map: map
-      });
-      var marker = new google.maps.Marker({
-        position: Richardson,
-        map: map
-      });
-      var marker = new google.maps.Marker({
-        position: Houma,
-        map: map
-      });
-      var marker = new google.maps.Marker({
-        position: Khost,
-        map: map
-      });
-      var marker = new google.maps.Marker({
-        position = Iskandariyah,
-        map: map
-      });
-      var marker = new google.maps.Marker({
-        position: Red Cloud,
-        map: map 
-      });
-      var marker = new google.maps.Marker({
-        position= Camp Casey,
-        map: map
-      });
-      var marker = new google.maps.Marker({
-        position: Abqaiq
-        map: map 
-      });
-      var marker = new google.maps.marker({
-        position: Genoa,
-        map: map
-      });
-    }
+        });
+       }
   </script>
    <script async defer 
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVY4qgguAD1EGsxfWeVpt0t3PzVcNef5Y&callback=initMap">
