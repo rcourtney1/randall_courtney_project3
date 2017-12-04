@@ -698,8 +698,6 @@ nav ul li a:hover {
 }
 #map {
   height: 300px;
-  width: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
+  width: 90%;
 }
 /*end fortbragg*/
