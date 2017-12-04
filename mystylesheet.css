@@ -699,5 +699,6 @@ nav ul li a:hover {
 #map {
   height: 300px;
   width: 90%;
+  margin: 30px;
 }
 /*end fortbragg*/
