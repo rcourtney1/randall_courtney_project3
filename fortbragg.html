@@ -36,21 +36,10 @@
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABsxkqWdfUGXFwb86zn_iRCy8hMyPk2tE&callback=initMap">
     </script>
-    <div id="player"></div>
-    <script src='https://youtube.com/iframe_api"></script>
-    <script>
-      var player;
-      function onYouTubeIframeAPIReady() {
-        player = new YT.Player('player', {
-          height ='390'
-          width = '640'
-          videoId: 'pAv0I4AaZ18'
-        }
-        events: { 
-             onready: initialize
-     });
-      } 
-                                </script>           
+    <div class="video" data-embeded="pAv0I4AaZ18">
+      <div class="play-button"></div>
+    </div>
+           
   </body>
   </html>
     
