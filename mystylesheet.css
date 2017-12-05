@@ -643,7 +643,7 @@ nav ul li a:hover {
 #motorcycles p {
    width: 1200px;
 }
-width.sporty {
+.sporty {
    float: left;
    width: 15%;
    height: 15%;
