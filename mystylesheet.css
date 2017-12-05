@@ -269,4 +269,19 @@ nav ul li a:hover {
    width: 50%;
    height: 50%;
 }
+.video-container2 {
+   position: relative;
+   padding-bottom: 56.25%;
+   padding-top: 30px;
+   height: 0;
+   margin: 10px;
+   overflow: hidden;
+}
+.video-container2 iframe, video-container object, .video-container2 embed {
+   position: absolute;
+   top: 0;
+   left:  0;
+   width: 50%;
+   height: 50%;
+}
 /*end fortbragg*/
