@@ -34,32 +34,5 @@
   <img class="tropic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/4th_BCT_%28ABN%29_25th_ID_SSI.png/220px-4th_BCT_%28ABN%29_25th_ID_SSI.png" alt="4th BCT (ABN)/25th ID"/>
   </div>
   </section>
-  <img src="mygallery/death_from_above.jpg" alt="deathfromabove" id="Rotating1" width=125 height=100>
-  <img scr="mygallery/airborneagenda.jpg" alt="airborneagenda" id="Rotating2" width=125 height=100>
-  <img scr="mygallery/bettermen.jpg" alt="bettermen" id="Rotating1" width=125 height=100>
-  <img scr="mygallery/jumpschool.jpg" alt="jumpschool" id="Rotating2" width=125 height=100>
-  <img scr="mygallery/jump_wings.jpg" alt="jumpwings" id="Rotating1" width=125 height=100>
-  <img scr="mygallery/mass_tactical_jump.jpg" alt="masstactical" id="Rotating2" width=125 height=100>
-  <script>
-    var ImageArr1 = new array ("death_from_above.jpg", "bettermen.jpg", "jump_wings.jpg");
-    var Imageholder1 = document.getElementById ('Rotating1');
-    
-    var ImageArr2 = new array ("airborneagenda.jpg", "jumpschool.jpg", "mass_tactical_jump.jpg");
-    var Imageholder2= document.getElementById ('Rotating2');
-    
-    Function RotateImages(whichHolder,Start)
-    { 
-      var a = eval("ImagArr"+whichHolder);
-      var b = eval("Imageholder"+whichHolder);
-      if (Start>=a.length)
-        Start=0;
-      b.scr = a[Start];
-      window.setTimeout("RotateImages("+whichHolder+","+(Start+1)+")",15);
-    }
-    RotateImages(1,0);
-    RotateImages(2,0);
-    
-  </script>
-    
   </body>
 </html>
