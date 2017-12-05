@@ -606,8 +606,7 @@ nav ul li a:hover {
    width: 1400px;
    margin-top: 30%;
    margin-bottom: 5%;
-}
-.patton p {
+}.patton p {
    font-style: italic;
    color: green;
    margin: 5%;
@@ -644,7 +643,7 @@ nav ul li a:hover {
 #motorcycles p {
    width: 1200px;
 }
-witdth.sporty {
+width.sporty {
    float: left;
    width: 15%;
    height: 15%;
