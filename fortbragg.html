@@ -37,11 +37,7 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABsxkqWdfUGXFwb86zn_iRCy8hMyPk2tE&callback=initMap">
     </script>
     <div id="player"></div>
-    <script>
-      var tag = document.createElement('script');
-      tag.src = "https://youtube.com/iframe_api";
-      firstScriptTag = document.getElementByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    <script src='https://youtube.com/iframe_api"></script>
       var player;
       function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
@@ -49,9 +45,10 @@
           width = '640'
           videoId: 'pAv0I4AaZ18'
         }
+        events: { 
+          
      });
-      }
-    </script>                                                   
+      }                                                   
   </body>
   </html>
     
