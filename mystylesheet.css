@@ -31,6 +31,11 @@ nav ul li a:hover {
 }
 /**end nav**/
 /*begin me*/
+.me {
+   margin: 700px;
+   margin-bottom: 0;
+   margin-top: 0;
+}
 #me h1{
    color: violet;
    width: 1400px;
