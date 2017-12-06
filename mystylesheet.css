@@ -255,12 +255,13 @@ nav ul li a:hover {
   margin: 75px;
 }
 #know {
-   width: 1000px;
+   margin: 170px;
+   margin-bottom: 0;
 }
 .video-container {
    position: relative;
-   padding-bottom: 56.25%;
-   padding-top: 30px;
+   padding-bottom: 45.25%;
+   padding-top: 20px;
    height: 0;
    margin: 10px;
    overflow: hidden;
@@ -272,12 +273,16 @@ nav ul li a:hover {
    width: 50%;
    height: 50%;
 }
+#braggvid {
+   margin: 175px;
+   margin-bottom: 0;
+}
 .video-container2 {
    position: relative;
-   padding-bottom: 56.25%;
-   padding-top: 30px;
+   padding-bottom: 45.25%;
+   padding-top: 20px;
    height: 0;
-   margin: 10px;
+   margin: 40px;
    overflow: hidden;
 }
 .video-container2 iframe, video-container object, .video-container2 embed {
