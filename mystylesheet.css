@@ -265,6 +265,7 @@ nav ul li a:hover {
    padding-top: 20px;
    height: 0;
    margin: 30px;
+   margin-bottom: 0;
    overflow: hidden;
 }
 .video-container iframe, video-container object, .video-container embed {
@@ -285,6 +286,7 @@ nav ul li a:hover {
    padding-top: 20px;
    height: 0;
    margin: 40px;
+   margin-bottom: 0;
    overflow: hidden;
 }
 .video-container2 iframe, video-container object, .video-container2 embed {
@@ -293,5 +295,10 @@ nav ul li a:hover {
    left:  0;
    width: 50%;
    height: 50%;
+}
+#thisisfortbragg {
+   margin-top: 0;
+   margin-bottom: 0;
+   margin: 500px;
 }
 /*end fortbragg*/
