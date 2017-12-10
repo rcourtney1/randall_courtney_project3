@@ -2,7 +2,7 @@
 body {
    background: lightgrey;
 }
-@media only screen and (min-width: 9500px) {
+@media only screen and (min-width: 800px) {
    body {
       background: lightblue;
    }
